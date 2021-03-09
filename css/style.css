@@ -1,15 +1,17 @@
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #ffff;
 }
+
 /*--- navigation bar ---*/
 .navbar {
-    background:#005b96;
+    background:#65ddd3;
 }
 .nav-link,
 .navbar-brand {
-    color: #fff;
+    color:#433520;
+    font-size: 18pt;
     cursor: pointer;
 }
 .nav-link {
@@ -24,98 +26,18 @@ body {
     justify-content: flex-end;
 }
 
-/*--- Content ---*/
-.header {
-  background-image: url('https://www.alphaholidaylettings.com/features/Blue%20Lagoon%20Geothermal%20Resort%20Grindavik%20%20Iceland.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
+#homePage{
+  padding-top: 0em;
 }
-
-/* Create an overlay for the background image */
-.overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.description {
-  left: 50%;
-  position: absolute;
-  top: 45%;
-  transform: translate(-50%, -55%);
-  text-align: center;
-}
-.description h1 {
-  color:#6497b1;
-}
-.description p {
-  color: #fff;
-  font-size: 1.3rem;
-  line-height: 1.5;
-}
-
-/* Button */
-.description button {
-  border:1px solid #6497b1;
-  background:#6497b1;
-  border-radius: 0;
-  color:#fff;
-}
-.description button:hover {
-  border:1px solid #fff;
-  background:#fff;
-  color:#000;
-}
-
-/* Columns */
-.features {
-  margin: 4em auto;
-  padding: 1em;
-  position: relative;
-}
-
-.feature-title {
-  color: #333;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.features img {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  margin-bottom: 16px;
-}
-
-/* Contact Form */
-.features .form-control,
-.features input {
-    border-radius: 0;
-}
-.features .btn {
-  background-color: #011f4b;
-  border: 1px solid #011f4b;
-  color: #fff;
-  margin-top: 20px;
-}
-.features .btn:hover {
-  background-color: #6497b1;
-  border: 1px solid #6497b1;
-}
-
+    
 /* Footer */
 .page-footer {
-  background-color: #005b96;
-  color: #fff;
-  padding: 60px 0 30px;
+  background-color: #65ddd3;
+  color: #433520;;
+  padding: 30px 0 10px;
 }
 .footer-copyright {
-  color: #b3cde0;
-  padding: 40px 0;
+  color: #433520;
+  font-weight: bold;
+  padding: 30px 0;
 }
