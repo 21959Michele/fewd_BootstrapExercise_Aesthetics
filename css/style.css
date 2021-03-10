@@ -3,12 +3,9 @@ body {
     margin: 0;
     background: #ffff;
 }
-
 /*--- navigation bar ---*/
 .navbar {
     background:#65ddd3;
-   
-    
 }
 .nav-link,
 .navbar-brand {
@@ -23,16 +20,25 @@ body {
 .nav-link:hover {
     color: #000;
 }
-.navbar-collapse {
-    /* aligns the flexible container's 
-    items when the items do not use all available space on the main-axis (horizontally)*/
+.navbar-collapse {   
     justify-content: flex-end;
 }
-
 #homePage{
   padding-top: 0em;
 }
-    
+.reviews{
+ color:rgb(212, 212, 63) ;
+ text-align:center;
+ padding: 5rem;
+}
+.card-group{
+  margin: 10px 50px;
+  padding: 0px ;
+  position: relative;
+}
+.card {
+    padding: 50px 50px;
+}    
 /* Footer */
 .page-footer {
   background-color: #65ddd3;
