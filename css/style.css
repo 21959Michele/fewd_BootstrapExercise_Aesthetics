@@ -7,6 +7,8 @@ body {
 /*--- navigation bar ---*/
 .navbar {
     background:#65ddd3;
+   
+    
 }
 .nav-link,
 .navbar-brand {
@@ -16,6 +18,7 @@ body {
 }
 .nav-link {
     margin-right: 1em !important;
+  
 }
 .nav-link:hover {
     color: #000;
